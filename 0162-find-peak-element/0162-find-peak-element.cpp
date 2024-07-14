@@ -12,6 +12,7 @@ public:
         
         if(nums[n-1]>nums[n-2])
             return n-1;
+
         while(s<=e)
         {
             int mid = s+(e-s)/2;
