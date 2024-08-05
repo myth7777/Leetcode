@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/myth7777/Leetcode/tree/master/0078-subsets) |
 | [0088-merge-sorted-array](https://github.com/myth7777/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0162-find-peak-element](https://github.com/myth7777/Leetcode/tree/master/0162-find-peak-element) |
+| [0169-majority-element](https://github.com/myth7777/Leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/myth7777/Leetcode/tree/master/0189-rotate-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/myth7777/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0283-move-zeroes](https://github.com/myth7777/Leetcode/tree/master/0283-move-zeroes) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/myth7777/Leetcode/tree/master/0001-two-sum) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/myth7777/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0169-majority-element](https://github.com/myth7777/Leetcode/tree/master/0169-majority-element) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/myth7777/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 ## Binary Search
 |  |
@@ -50,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/myth7777/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0169-majority-element](https://github.com/myth7777/Leetcode/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/myth7777/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 ## Matrix
 |  |
@@ -96,6 +99,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/myth7777/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/myth7777/Leetcode/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/myth7777/Leetcode/tree/master/0169-majority-element) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/myth7777/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/myth7777/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/myth7777/Leetcode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
