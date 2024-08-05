@@ -1,26 +1,20 @@
 class Solution {
 public:
     string kthDistinct(vector<string>& arr, int k) {
-        unordered_map<string, int> frequency;
-        vector<string> distinctStrings;
+        unordered_map<string, int> mp;
+        vector<string>str;
 
-        // Count the frequency of each string
-        for (auto s : arr) {
-            frequency[s]++;
+        for(auto it:arr)
+            mp[it]++;
+        
+        for(auto it:arr)
+        {
+            if(mp[it] == 1)
+                str.push_back(it);
         }
-
-        // Collect strings that appear exactly once
-        for (auto s : arr) {
-            if (frequency[s] == 1) {
-                distinctStrings.push_back(s);
-            }
-        }
-
-        // Check if there are at least k distinct strings
-        if (distinctStrings.size() < k) {
+        if(str.size()<k)
             return "";
-        }
-
-        return distinctStrings[k - 1];
+        
+        return str[k-1];
     }
 };
