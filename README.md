@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/myth7777/Leetcode/tree/master/0189-rotate-array) |
 | [0223-rectangle-area](https://github.com/myth7777/Leetcode/tree/master/0223-rectangle-area) |
 | [2032-largest-odd-number-in-string](https://github.com/myth7777/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 ## Geometry
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/myth7777/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/myth7777/Leetcode/tree/master/0078-subsets) |
 | [0162-find-peak-element](https://github.com/myth7777/Leetcode/tree/master/0162-find-peak-element) |
+| [0189-rotate-array](https://github.com/myth7777/Leetcode/tree/master/0189-rotate-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/myth7777/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/myth7777/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/myth7777/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -67,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/myth7777/Leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0189-rotate-array](https://github.com/myth7777/Leetcode/tree/master/0189-rotate-array) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/myth7777/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 ## Greedy
 |  |
