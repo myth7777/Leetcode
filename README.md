@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0564-find-the-closest-palindrome](https://github.com/myth7777/Leetcode/tree/master/0564-find-the-closest-palindrome) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/myth7777/Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [2032-largest-odd-number-in-string](https://github.com/myth7777/Leetcode/tree/master/2032-largest-odd-number-in-string) |
+| [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/myth7777/Leetcode/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 ## Geometry
 |  |
 | ------- |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2032-largest-odd-number-in-string](https://github.com/myth7777/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/myth7777/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2727-number-of-senior-citizens](https://github.com/myth7777/Leetcode/tree/master/2727-number-of-senior-citizens) |
+| [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/myth7777/Leetcode/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 ## Stack
 |  |
 | ------- |
@@ -95,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2032-largest-odd-number-in-string](https://github.com/myth7777/Leetcode/tree/master/2032-largest-odd-number-in-string) |
+| [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/myth7777/Leetcode/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 ## Backtracking
 |  |
 | ------- |
