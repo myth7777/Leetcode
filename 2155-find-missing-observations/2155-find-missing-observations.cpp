@@ -21,11 +21,14 @@ public:
             for(int i=0;i<n;i++)
             {
                 if(extra>0)
+                {
                     ans.push_back(full+1);
+                    extra--;
+                }
                 else
                     ans.push_back(full);
 
-                extra = max(0,extra-1);
+                // extra = max(0,extra-1);
             }
         }
 
