@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/myth7777/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0151-reverse-words-in-a-string](https://github.com/myth7777/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0273-integer-to-english-words](https://github.com/myth7777/Leetcode/tree/master/0273-integer-to-english-words) |
+| [0345-reverse-vowels-of-a-string](https://github.com/myth7777/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0564-find-the-closest-palindrome](https://github.com/myth7777/Leetcode/tree/master/0564-find-the-closest-palindrome) |
 | [1078-remove-outermost-parentheses](https://github.com/myth7777/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/myth7777/Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/myth7777/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/myth7777/Leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/myth7777/Leetcode/tree/master/0283-move-zeroes) |
+| [0345-reverse-vowels-of-a-string](https://github.com/myth7777/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/myth7777/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 ## Greedy
 |  |
