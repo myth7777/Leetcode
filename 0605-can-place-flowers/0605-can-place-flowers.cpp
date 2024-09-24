@@ -14,7 +14,7 @@ public:
                 if (cnt>=n)
                     return true;
                 
-                // i++;
+                i++;
             }
         }
         return cnt>=n;
