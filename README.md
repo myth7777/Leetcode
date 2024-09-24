@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/myth7777/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/myth7777/Leetcode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/myth7777/Leetcode/tree/master/0485-max-consecutive-ones) |
+| [0605-can-place-flowers](https://github.com/myth7777/Leetcode/tree/master/0605-can-place-flowers) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/myth7777/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/myth7777/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/myth7777/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0605-can-place-flowers](https://github.com/myth7777/Leetcode/tree/master/0605-can-place-flowers) |
 | [2032-largest-odd-number-in-string](https://github.com/myth7777/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/myth7777/Leetcode/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/myth7777/Leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
