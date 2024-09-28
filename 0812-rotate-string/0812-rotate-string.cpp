@@ -6,7 +6,7 @@ public:
         
         string doubled = goal+goal;
 
-        if(doubled.contains(s))
+        if(doubled.find(s) != string::npos)
             return true;
 
         return false;
