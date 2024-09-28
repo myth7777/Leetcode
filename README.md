@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/myth7777/Leetcode/tree/master/0001-two-sum) |
+| [0003-longest-substring-without-repeating-characters](https://github.com/myth7777/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/myth7777/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0169-majority-element](https://github.com/myth7777/Leetcode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/myth7777/Leetcode/tree/master/0242-valid-anagram) |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/myth7777/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/myth7777/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0151-reverse-words-in-a-string](https://github.com/myth7777/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/myth7777/Leetcode/tree/master/0242-valid-anagram) |
@@ -191,4 +193,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/myth7777/Leetcode/tree/master/2106-find-greatest-common-divisor-of-array) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/myth7777/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
