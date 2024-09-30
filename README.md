@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/myth7777/Leetcode/tree/master/0242-valid-anagram) |
 | [0273-integer-to-english-words](https://github.com/myth7777/Leetcode/tree/master/0273-integer-to-english-words) |
 | [0345-reverse-vowels-of-a-string](https://github.com/myth7777/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
+| [0392-is-subsequence](https://github.com/myth7777/Leetcode/tree/master/0392-is-subsequence) |
 | [0564-find-the-closest-palindrome](https://github.com/myth7777/Leetcode/tree/master/0564-find-the-closest-palindrome) |
 | [0812-rotate-string](https://github.com/myth7777/Leetcode/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/myth7777/Leetcode/tree/master/1078-remove-outermost-parentheses) |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/myth7777/Leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/myth7777/Leetcode/tree/master/0283-move-zeroes) |
 | [0345-reverse-vowels-of-a-string](https://github.com/myth7777/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
+| [0392-is-subsequence](https://github.com/myth7777/Leetcode/tree/master/0392-is-subsequence) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/myth7777/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 ## Greedy
 |  |
@@ -169,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/myth7777/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0392-is-subsequence](https://github.com/myth7777/Leetcode/tree/master/0392-is-subsequence) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/myth7777/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Recursion
 |  |
