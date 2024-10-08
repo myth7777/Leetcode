@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/myth7777/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/myth7777/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/myth7777/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/myth7777/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/myth7777/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2047-find-a-peak-element-ii](https://github.com/myth7777/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/myth7777/Leetcode/tree/master/2106-find-greatest-common-divisor-of-array) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/myth7777/Leetcode/tree/master/0268-missing-number) |
 | [1046-max-consecutive-ones-iii](https://github.com/myth7777/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/myth7777/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/myth7777/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/myth7777/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2047-find-a-peak-element-ii](https://github.com/myth7777/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 ## Divide and Conquer
@@ -139,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0334-increasing-triplet-subsequence](https://github.com/myth7777/Leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0605-can-place-flowers](https://github.com/myth7777/Leetcode/tree/master/0605-can-place-flowers) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/myth7777/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2032-largest-odd-number-in-string](https://github.com/myth7777/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/myth7777/Leetcode/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/myth7777/Leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -163,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/myth7777/Leetcode/tree/master/0268-missing-number) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/myth7777/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/myth7777/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/myth7777/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/myth7777/Leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Counting
 |  |
@@ -192,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/myth7777/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [1046-max-consecutive-ones-iii](https://github.com/myth7777/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/myth7777/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/myth7777/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Database
 |  |
@@ -219,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/myth7777/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/myth7777/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/myth7777/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/myth7777/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## String Matching
 |  |
 | ------- |
