@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0273-integer-to-english-words](https://github.com/myth7777/Leetcode/tree/master/0273-integer-to-english-words) |
 | [0345-reverse-vowels-of-a-string](https://github.com/myth7777/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/myth7777/Leetcode/tree/master/0392-is-subsequence) |
+| [0443-string-compression](https://github.com/myth7777/Leetcode/tree/master/0443-string-compression) |
 | [0564-find-the-closest-palindrome](https://github.com/myth7777/Leetcode/tree/master/0564-find-the-closest-palindrome) |
 | [0812-rotate-string](https://github.com/myth7777/Leetcode/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/myth7777/Leetcode/tree/master/1078-remove-outermost-parentheses) |
@@ -141,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/myth7777/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0345-reverse-vowels-of-a-string](https://github.com/myth7777/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/myth7777/Leetcode/tree/master/0392-is-subsequence) |
+| [0443-string-compression](https://github.com/myth7777/Leetcode/tree/master/0443-string-compression) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/myth7777/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/myth7777/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Greedy
