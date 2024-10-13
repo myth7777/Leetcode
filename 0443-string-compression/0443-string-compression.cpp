@@ -4,8 +4,8 @@ public:
         int n = chars.size();
         int idx=0;
 
-        
-        for(int i=0; i<n;)
+        int i=0;
+        while(i<n)
         {
             int count=0;
             char currChar = chars[i];
