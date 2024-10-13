@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/myth7777/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/myth7777/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/myth7777/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/myth7777/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/myth7777/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/myth7777/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2047-find-a-peak-element-ii](https://github.com/myth7777/Leetcode/tree/master/2047-find-a-peak-element-ii) |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/myth7777/Leetcode/tree/master/0268-missing-number) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/myth7777/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/myth7777/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/myth7777/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/myth7777/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/myth7777/Leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Binary Search
@@ -148,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/myth7777/Leetcode/tree/master/0443-string-compression) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/myth7777/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/myth7777/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/myth7777/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/myth7777/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Greedy
 |  |
@@ -182,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/myth7777/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/myth7777/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/myth7777/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/myth7777/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/myth7777/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/myth7777/Leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Counting
