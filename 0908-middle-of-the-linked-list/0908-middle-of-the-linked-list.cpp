@@ -11,28 +11,42 @@
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
-        int cnt=0, mid;
-        ListNode *temp = head;
-
-        if(head == NULL || head->next == NULL)
-            return head;
-        while(temp != NULL)
-        {
-            cnt++;
-            temp = temp->next;
-        }
+        // ------------TORTOISE AND HARE APPROACH(SLOW FAST POINTER)----------------
+        ListNode *fast = head;
+        ListNode *slow = head;
         
-        mid = cnt/2 + 1;
-        temp = head;
-        cnt = 0;
-
-        while(temp != NULL)
+        while(fast != NULL && fast->next != NULL)
         {
-            cnt++;
-            if(mid == cnt)
-                break;
-            temp = temp->next;
+            fast = fast->next->next;
+            slow = slow->next;
         }
-        return temp;   
+
+        return slow;
+
+
+        // ------------ITERATIVE APPROACH---------------
+        // int cnt=0, mid;
+        // ListNode *temp = head;
+
+        // if(head == NULL || head->next == NULL)
+        //     return head;
+        // while(temp != NULL)
+        // {
+        //     cnt++;
+        //     temp = temp->next;
+        // }
+        
+        // mid = cnt/2 + 1;
+        // temp = head;
+        // cnt = 0;
+
+        // while(temp != NULL)
+        // {
+        //     cnt++;
+        //     if(mid == cnt)
+        //         break;
+        //     temp = temp->next;
+        // }
+        // return temp;   
     }
 };
