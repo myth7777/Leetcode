@@ -42,11 +42,15 @@ public:
         while(second != NULL)
         {
             if(first->val != second->val)
+            {
+                reverse(newHead);
                 return false;
+            }
             
             first = first->next;
             second = second->next;
         }
+        reverse(newHead);
         return true;
 
         // --------USING STACK----------
