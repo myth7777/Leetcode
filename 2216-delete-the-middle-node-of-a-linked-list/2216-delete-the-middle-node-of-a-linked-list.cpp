@@ -12,37 +12,37 @@ class Solution {
 public:
     ListNode* deleteMiddle(ListNode* head) {
         // ----------FAST AND SLOW POINTER------------
-        ListNode *slow = head;
-        ListNode *fast = head;
-        ListNode *prev = NULL;
-        if (head == NULL || head->next == NULL) 
-        {
-            return NULL;
-        }
-        while(fast != NULL && fast->next != NULL)
-        {
-            prev = slow;
-            slow = slow->next;
-            fast = fast->next->next;
-        }
-        prev->next = slow->next;
-
-        return head;
-
-
-        // // -----------BRUTE FORCE-----------
-        // int len=0;
-        // ListNode *temp1 = head;
-
-        // while(temp1 != nullptr)
+        // ListNode *slow = head;
+        // ListNode *fast = head;
+        // ListNode *prev = NULL;
+        // if (head == NULL || head->next == NULL) 
         // {
-        //     temp1 = temp1->next;
-        //     len++;
+        //     return NULL;
         // }
-        // int mid = (len/2);
+        // while(fast != NULL && fast->next != NULL)
+        // {
+        //     prev = slow;
+        //     slow = slow->next;
+        //     fast = fast->next->next;
+        // }
+        // prev->next = slow->next;
 
-        // if(head == nullptr || head->next == nullptr)
-        //     return nullptr;
+        // return head;
+
+
+        // -----------BRUTE FORCE-----------
+        int len=0;
+        ListNode *temp1 = head;
+
+        while(temp1 != nullptr)
+        {
+            temp1 = temp1->next;
+            len++;
+        }
+        int mid = (len/2);
+
+        if(head == nullptr || head->next == nullptr)
+            return nullptr;
         
         // if(mid==0) 
         // {
@@ -52,22 +52,22 @@ public:
         //     return head;
         // }
 
-        // ListNode *temp = head;
-        // ListNode *prev = nullptr;
-        // int cnt=-1;
+        ListNode *temp = head;
+        ListNode *prev = nullptr;
+        int cnt=-1;
 
-        // while(temp != nullptr)
-        // {
-        //     cnt++;
-        //     if(cnt==mid)
-        //     {
-        //         prev->next = prev->next->next;
-        //         delete temp;
-        //         break;
-        //     }
-        //     prev = temp;
-        //     temp = temp->next;
-        // }
-        // return head;
+        while(temp != nullptr)
+        {
+            cnt++;
+            if(cnt==mid)
+            {
+                prev->next = prev->next->next;
+                delete temp;
+                break;
+            }
+            prev = temp;
+            temp = temp->next;
+        }
+        return head;
     }
 };
