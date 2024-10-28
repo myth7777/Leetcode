@@ -9,18 +9,33 @@
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
-        // -------USING FAST & SLOW POINTERS-------
-        ListNode *fast = head;
-        ListNode *slow = head;
+        // without using hashMap or fast-slow pointer
+        if(head == NULL || head->next == NULL)
+            return false;
+        ListNode *curr = head;
 
-        while(fast != NULL && fast->next != NULL)
+        while(curr->next != NULL)
         {
-            fast = fast->next->next;
-            slow = slow->next;
-            if(fast == slow)
+            if(curr->next == head)  
                 return true;
+
+            ListNode *nextNode = curr->next;
+            curr->next = head;
+            curr = nextNode;
         }
         return false;
+        // // -------USING FAST & SLOW POINTERS-------
+        // ListNode *fast = head;
+        // ListNode *slow = head;
+
+        // while(fast != NULL && fast->next != NULL)
+        // {
+        //     fast = fast->next->next;
+        //     slow = slow->next;
+        //     if(fast == slow)
+        //         return true;
+        // }
+        // return false;
 
 
         // // -------USING HASMAP-------
