@@ -12,6 +12,7 @@ public:
             if(mpp.find(s[r]) != mpp.end())
             {
                 l = max(mpp[s[r]] + 1, l);
+                // l = mpp[s[r]]+1;
             }    
             mpp[s[r]] = r;
             maxLen = max(maxLen, r-l+1);
