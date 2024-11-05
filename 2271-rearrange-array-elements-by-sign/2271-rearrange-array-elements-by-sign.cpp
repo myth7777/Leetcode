@@ -14,16 +14,23 @@ public:
         }
         for(int i=0; i<n; i++)
         {
-            if(i%2==0)
-            {
-                nums[i] = pos.top();
-                pos.pop();
-            }
-            else
-            {
-                nums[i] = neg.top();
-                neg.pop();
-            }
+            // if(i%2==0)
+            // {
+            //     nums[i] = pos.top();
+            //     pos.pop();
+            // }
+            // else
+            // {
+            //     nums[i] = neg.top();
+            //     neg.pop();
+            // }
+
+            nums[i]=pos.top();
+            pos.pop();
+            i++;
+
+            nums[i]=neg.top();
+            neg.pop();
         }
         return nums;
     }
