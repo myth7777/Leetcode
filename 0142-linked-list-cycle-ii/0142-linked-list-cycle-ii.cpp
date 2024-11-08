@@ -10,8 +10,8 @@ class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
         // //--------------USING FAST & SLOW POINTER-----------------
-        if(head == NULL || head->next == NULL)
-            return NULL;
+        // if(head == NULL || head->next == NULL)
+        //     return NULL;
         
         ListNode *fast = head;
         ListNode *slow = head;
