@@ -10,38 +10,75 @@
  */
 class Solution {
 public:
-    ListNode *convert(vector<int>arr)
+    // ListNode *convert(vector<int>arr)
+    // {
+    //     int n = arr.size();
+    //     if (n == 0) return nullptr;
+    //     ListNode *head = new ListNode(arr[0]);
+    //     ListNode *temp = head;
+
+    //     for(int i=1; i<n; i++)
+    //     {
+    //         ListNode *newNode = new ListNode(arr[i]);
+    //         temp->next = newNode;
+    //         temp = temp->next;
+    //     }
+    //     return head;
+    // }
+
+    ListNode* merge(ListNode* head1, ListNode* head2)
     {
-        int n = arr.size();
-        if (n == 0) return nullptr;
-        ListNode *head = new ListNode(arr[0]);
-        ListNode *temp = head;
+        ListNode* temp1 = head1;
+        ListNode* temp2 = head2;
+        ListNode* dummy = new ListNode(-1);
+        ListNode* temp = dummy;
 
-        for(int i=1; i<n; i++)
+        while(temp1 != NULL && temp2 != NULL)
         {
-            ListNode *newNode = new ListNode(arr[i]);
-            temp->next = newNode;
-            temp = temp->next;
-        }
-        return head;
-    }
-    ListNode* mergeKLists(vector<ListNode*>& lists) {
-        vector<int>arr;
-
-        int n = lists.size();
-
-        for(int i=0; i<n; i++)
-        {
-            ListNode *temp = lists[i];
-            while(temp != NULL)
+            if(temp1->val < temp2->val)
             {
-                arr.push_back(temp->val);
+                temp->next = temp1;
                 temp = temp->next;
+                temp1 = temp1->next;        
+            }
+            else
+            {
+                temp->next = temp2;
+                temp = temp->next;
+                temp2 = temp2->next;
             }
         }
+        if(temp1) temp->next = temp1;
+        if(temp2) temp->next = temp2;
 
-        sort(arr.begin(), arr.end());
+        return dummy->next;
+    }
+    ListNode* mergeKLists(vector<ListNode*>& lists) {
+        // ---------OPTIMAL APPROACH------------
+        if (lists.empty()) return nullptr;
+        ListNode *head = lists[0];
+        for(int i=1; i<lists.size(); i++)
+        {
+            head = merge(head, lists[i]);
+        }
+        return head;
 
-        return convert(arr);
+        // //--------BRUTE FORCE-----------
+        // vector<int>arr;
+        // int n = lists.size();
+
+        // for(int i=0; i<n; i++)
+        // {
+        //     ListNode *temp = lists[i];
+        //     while(temp != NULL)
+        //     {
+        //         arr.push_back(temp->val);
+        //         temp = temp->next;
+        //     }
+        // }
+
+        // sort(arr.begin(), arr.end());
+
+        // return convert(arr);
     }
 };
