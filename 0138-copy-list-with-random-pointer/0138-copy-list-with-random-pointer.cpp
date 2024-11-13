@@ -17,31 +17,64 @@ public:
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
-        Node* temp = head;
-        map<Node*, Node*>mpp;
+        // ---------OPTIMAL APPROACH(insert in between nodes)---------
+        Node *temp = head;
 
-        while(temp != NULL)
+        while(temp!=NULL)
         {
             Node* newNode = new Node(temp->val);
-            mpp[temp] = newNode;
-            temp = temp->next;
+            newNode->next = temp->next;
+            temp->next = newNode;
+            temp = temp->next->next;
         }
 
         temp = head;
-        while(temp != NULL)
+        while(temp!=NULL)
         {
-            // if(temp->next == NULL)
-            //     mpp[temp]->next = NULL;
+            if(temp->random == NULL)
+                temp->next->random = NULL;
+            else
+                temp->next->random = temp->random->next;
+
+            temp = temp->next->next;
+        }
+
+        temp = head;
+        Node *dummy = new Node(-1);
+        Node* temp2 = dummy;
+
+        // dummy->next = temp->next;
+
+        while(temp!=NULL)
+        {
+            temp2->next = temp->next;
+            temp->next = temp->next->next;
             
-            // if(temp->random == NULL)
-            //     mpp[temp]->random = NULL;
-
-            mpp[temp]->next = mpp[temp->next];
-            mpp[temp]->random = mpp[temp->random];
-
+            temp2 = temp2->next;
             temp = temp->next;
         }
+        return dummy->next;
+
+        // //--------USING HASHMAP----------
+        // Node* temp = head;
+        // map<Node*, Node*>mpp;
+
+        // while(temp != NULL)
+        // {
+        //     Node* newNode = new Node(temp->val);
+        //     mpp[temp] = newNode;
+        //     temp = temp->next;
+        // }
+
+        // temp = head;
+        // while(temp != NULL)
+        // {
+        //     mpp[temp]->next = mpp[temp->next];
+        //     mpp[temp]->random = mpp[temp->random];
+
+        //     temp = temp->next;
+        // }
         
-        return mpp[head];
+        // return mpp[head];
     }
 };
