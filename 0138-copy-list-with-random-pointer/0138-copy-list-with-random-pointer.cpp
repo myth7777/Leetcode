@@ -30,11 +30,11 @@ public:
         temp = head;
         while(temp != NULL)
         {
-            if(temp->next == NULL)
-                mpp[temp]->next = NULL;
+            // if(temp->next == NULL)
+            //     mpp[temp]->next = NULL;
             
-            if(temp->random == NULL)
-                mpp[temp]->random = NULL;
+            // if(temp->random == NULL)
+            //     mpp[temp]->random = NULL;
 
             mpp[temp]->next = mpp[temp->next];
             mpp[temp]->random = mpp[temp->random];
