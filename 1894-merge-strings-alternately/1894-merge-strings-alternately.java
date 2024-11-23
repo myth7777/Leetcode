@@ -3,7 +3,7 @@ class Solution {
         int n1 = word1.length();
         int n2 = word2.length();
        
-        StringBuffer ans = new StringBuffer();
+        StringBuilder ans = new StringBuilder();
         int i=0,j=0;
 
         while(i<n1 && j<n2)
