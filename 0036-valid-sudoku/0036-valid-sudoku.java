@@ -5,40 +5,40 @@ class Solution {
 
         boolean status = true;
         
-        Set<Character> mpp = new HashSet<>(); 
+        // Set<Character> mpp = new HashSet<>(); 
 
         for(int i=0; i<row; i++)
         {
+            Set<Character> rowSet = new HashSet<>();
             for(int j=0; j<col; j++)
             {
                 if(board[i][j] == '.') continue;
 
-                if(mpp.contains(board[i][j]))
+                if(rowSet.contains(board[i][j]))
                     return false;
                 
                 else
-                    mpp.add(board[i][j]);
+                    rowSet.add(board[i][j]);
             }
-            mpp.clear();
         }
         
-        mpp.clear();
+        // mpp.clear();
 
         for(int j=0; j<col; j++)
         {
+            Set<Character> colSet = new HashSet<>();
             for(int i=0; i<row; i++)
             {
                 if(board[i][j] == '.') continue;
 
-                if(mpp.contains(board[i][j]))
+                if(colSet.contains(board[i][j]))
                     return false;
                 
                 else
-                    mpp.add(board[i][j]);
+                    colSet.add(board[i][j]);
             }
-            mpp.clear();
+            
         }
-        mpp.clear();
 
         int sr,sc;
         int er,ec;
@@ -49,18 +49,19 @@ class Solution {
             for(sc=0; sc<col; sc+=3)
             {
                 ec = sc+2;
+                Set<Character> boxSet = new HashSet<>();
                 for(int i=sr; i<=er; i++)
                 {
                     for(int j=sc; j<=ec; j++)
                     {
                         if(board[i][j] == '.') continue;
-                        if(mpp.contains(board[i][j]))
+                        if(boxSet.contains(board[i][j]))
                             return false;
                         else
-                            mpp.add(board[i][j]);
+                            boxSet.add(board[i][j]);
                     }
                 }
-                mpp.clear(); 
+                // mpp.clear(); 
             }
         }
         return true;
