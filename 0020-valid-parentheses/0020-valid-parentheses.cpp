@@ -8,8 +8,16 @@ public:
         {
             if(s[i]=='(' || s[i]=='{' || s[i]=='[')
                 st.push(s[i]);
-            if((s[i]==')'&&st.top()=='(') || (s[i]=='}'&&st.top()=='{') || (s[i]==']'&&st.top()=='['))
-                st.pop();
+            
+            else
+            {
+                if(st.empty())
+                    return false;
+                if((s[i]==')'&&st.top()=='(') || (s[i]=='}'&&st.top()=='{') || (s[i]==']'&&st.top()=='['))
+                    st.pop();
+                else
+                    return false;
+            }
         }
         if(st.empty())
             return true;
