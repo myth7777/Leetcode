@@ -1,20 +1,35 @@
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        int n = nums.size();
-        set<int>st;
+    // ------------OPTIMAL APPROACH(2 POINTERS)----------------
+        int n=nums.size();
 
-        for(int i=0; i<n; i++)
+        int i=0, j=1;
+        while(j<n)
         {
-            st.insert(nums[i]);
+            if(nums[i]!=nums[j])
+            {
+                i++;
+                swap(nums[i], nums[j]);
+            }
+            j++;
         }
-        int k = st.size();
+        return i+1;
+    // //----------BRUTE FORCE------------
+    //     int n = nums.size();
+    //     set<int>st;
 
-        int idx=0;
-        for(auto it:st)
-        {
-            nums[idx++] = it;
-        }
-        return k;
+    //     for(int i=0; i<n; i++)
+    //     {
+    //         st.insert(nums[i]);
+    //     }
+    //     int k = st.size();
+
+    //     int idx=0;
+    //     for(auto it:st)
+    //     {
+    //         nums[idx++] = it;
+    //     }
+    //     return k;
     }
 };
