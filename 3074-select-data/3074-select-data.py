@@ -1,5 +1,6 @@
 import pandas as pd
 
 def selectData(students: pd.DataFrame) -> pd.DataFrame:
-    dfn = students.loc[students['student_id']==101, 'name':]
-    return dfn
+    df = pd.DataFrame(students)
+    dfm = df.loc[students['student_id']==101, 'name':]
+    return dfm
